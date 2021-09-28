@@ -1,6 +1,9 @@
 
 * {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,9 +15,9 @@ Header {
     align-items: center;
     height: 100px;
     padding: 1%;
-    margin: -8px;
+    margin: 0px;
     background-color: #113C55;
-    color: #FDF5D8;
+    color: #FDF5D8; 
 }
 
 li, a {
@@ -141,3 +144,4 @@ img {
     box-shadow: 10px 10px 10px #999;
     background-color: transparent;
 }
+
