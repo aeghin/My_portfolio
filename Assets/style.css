@@ -23,7 +23,6 @@ Header {
 li, a {
     text-decoration: none;
     list-style-type: none;
-    /* color: #FDF5D8; */
 }
 
 ul {
@@ -33,9 +32,6 @@ ul {
     margin: 30px;
 }
 
-/* a:hover {
-    color: #969696;
-} */
 .contact-btn {
     display: inline-block;
     padding: 5px 15px;
@@ -110,7 +106,7 @@ ul {
 }
 
 .about-me-btn:hover {
-color: #113C55;
+color: #113C55; 
 background-color: #FDF5D8;
 }
 
@@ -120,6 +116,9 @@ h2, p {
 
 p {
     font-size: 20px;
+    margin-left: 2rem;
+    margin-right: 30rem;
+    text-align: justify;
 }
 
 a {
@@ -143,5 +142,19 @@ img {
     border-color: #113C55;
     box-shadow: 10px 10px 10px #999;
     background-color: transparent;
+    margin-left: 41px;
+}
+
+h2 {
+    font-size: 3rem;    
+}
+
+footer {
+    text-align: center;
+}
+
+section h2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
 }
 
